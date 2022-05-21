@@ -1,0 +1,33 @@
+.cadastro {
+  width: 100%;
+  height: 100%;
+  background-color: #29abe2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cadastro_body {
+  height: 700px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+}
+.cadastro_body h1 {
+  margin-bottom: 40px;
+  text-align: start;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 60px;
+  color: white;
+}
+.cadastro_body_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cadastro_body_form_nome {
+  color: white;
+}

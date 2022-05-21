@@ -1,0 +1,15 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.home_body {
+  display: grid;
+  grid-template-rows: 100vh 100vh;
+}
+.home_body_cadastro{
+    background-color: green;
+}
+.home_body_lista{
+    background-color: red;
+}

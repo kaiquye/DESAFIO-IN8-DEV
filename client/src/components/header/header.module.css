@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../seeds/index-image.jpg");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.body_header {
+  margin-top: 20px;
+  width: 55%;
+  padding: 20px;
+}
+.body_header_nav {
+  display: flex;
+  flex-direction: row;
+}
+.body_header_nav_logo {
+  width: 100%;
+}
+.body_header_nav_list {
+  /* Helvetica 25 UltraLight Regular */
+  font-family: Helvetica;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.body_header_nav_list ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+  color: rgb(230, 230, 230);
+}
+
+/* titulo header */
+
+.body_header_titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+}
+
+.body_header_titulo p {
+ font-family: 'Roboto Flex', sans-serif;
+  font-weight: 500;
+  color: rgb(230, 230, 230);
+  font-size: 105px;
+}
+
+.body_header_titulo label {
+ font-family: 'Roboto Flex', sans-serif;
+  font-weight: 100;
+  color: rgb(230, 230, 230);
+  font-size: 40px;
+}
