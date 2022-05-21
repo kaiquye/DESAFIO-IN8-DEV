@@ -6,28 +6,67 @@
   align-items: center;
   justify-content: center;
 }
-.cadastro_body {
-  height: 700px;
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: start;
-  padding: 10px;
-}
-.cadastro_body h1 {
-  margin-bottom: 40px;
-  text-align: start;
+.cadastro_body_titulo {
   font-family: "Roboto Flex", sans-serif;
-  font-size: 60px;
-  color: white;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.cadastro_body {
+  margin-top: 250px;
+  width: 50%;
+  height: 100%;
 }
 .cadastro_body_form {
   width: 100%;
+  height: 60%;
+}
+
+.cadastro_body_form_btn{
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
 }
-.cadastro_body_form_nome {
+
+.cadastro_body_form_button {
+  font-size: 34px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #29abe2;
+  background-color: #012d51;
+  font-family: "Roboto Flex", sans-serif;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* styles input */
+.cadastro_body_form_input {
+  display: flex;
+  flex-direction: column;
+}
+.cadastro_body_form_input label {
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  font-size: 13px;
+}
+.cadastro_body_form_input input {
+  margin-bottom: 20px;
+  font-family: Helvetica;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-bottom: 2px solid rgb(214, 214, 214);
+  padding: 8px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.cadastro_body_form_input input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
 }
