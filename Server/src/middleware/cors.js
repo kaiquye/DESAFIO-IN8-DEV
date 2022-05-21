@@ -1,6 +1,6 @@
 const Cors = require('cors');
 
-const ConfigCors = () => {
+exports.ConfigCors = () => {
 
     let config = {
         origin: '*',
@@ -10,8 +10,4 @@ const ConfigCors = () => {
     };
 
     return Cors(config);
-};
-
-module.exports = {
-    ConfigCors
 };

@@ -1,8 +1,10 @@
+import { useContext } from 'react';
 import style from './cadatro.module.css'
-
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
+
+import { ContextApi } from '../../contextApi/contextApi'
 
 const ValidarCampos = yup.object({
     nome: yup.string().required(),
@@ -15,10 +17,12 @@ const ValidarCampos = yup.object({
 
 function NovoEstagiario() {
 
+    const { NovoEstagiario } = useContext(ContextApi)
+
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(ValidarCampos)
     });
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => NovoEstagiario(data);
 
     return (
         <section className={style.cadastro} >

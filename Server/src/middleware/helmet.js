@@ -1,9 +1,5 @@
 const Helmet = require('helmet');
 
-const HelmetConfig = function () {
+exports.HelmetConfig = () => {
     return Helmet({ referrerPolicy: { policy: 'no-referrer' } }); // adcionar mais confiurações
-};
-
-module.exports = {
-    HelmetConfig
 };

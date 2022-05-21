@@ -1,7 +1,7 @@
 const express = require('express');
 const EstagioRoutes = require('./routes/Estagio-routes');
-const ConfigCors = require('./middleware/cors');
-const ConfigHelmet = require('./middleware/helmet');
+const { ConfigCors } = require('./middleware/cors');
+const { HelmetConfig } = require('./middleware/helmet');
 
 class Server {
 
@@ -16,7 +16,7 @@ class Server {
     Middleware() {
         this.App.use(express.json());
         this.App.use(ConfigCors());
-        this.App.use(ConfigHelmet());
+        this.App.use(HelmetConfig());
     }
 
     Routes() {
