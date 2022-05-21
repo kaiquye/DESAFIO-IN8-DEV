@@ -22,7 +22,10 @@ function NovoEstagiario() {
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(ValidarCampos)
     });
-    const onSubmit = data => NovoEstagiario(data);
+    const onSubmit = data => {
+        NovoEstagiario(data)
+        document.location.reload()
+    };
 
     return (
         <section className={style.cadastro} >

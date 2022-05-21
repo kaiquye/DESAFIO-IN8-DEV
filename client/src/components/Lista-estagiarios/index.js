@@ -33,10 +33,10 @@ function ListaEstagiarios() {
                 <table className={style.lista_tabela} >
                     <thead>
                         <tr>
-                            <th></th>
+                            <th style={{ width: '100px' }}></th>
                             <th style={{ width: '300px' }} >NOME</th>
                             <th style={{ width: '300px' }}>E-MAIL</th>
-                            <th style={{ width: '250px' }}>NASCIMETNO</th>
+                            <th style={{ width: '300px' }} >NASCIMETNO</th>
                             <th style={{ width: '300px' }}>TELEFONE</th>
                         </tr>
                     </thead>

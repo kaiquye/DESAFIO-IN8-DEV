@@ -22,18 +22,24 @@
 .lista_tabela {
   text-align: center;
   width: 100%;
+  color: rgb(145, 145, 145);
   box-shadow: inset rgb(255, 255, 255) 1px 1px 1px 12px;
   background-color: #29abe2;
+  font-family: 'Roboto Flex', sans-serif;
 }
 .lista_tabela tr {
+ 
   background-color: rgb(255, 255, 255);
 }
 .lista_tabela td {
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .lista_tabela thead tr th {
-  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #012d51;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
