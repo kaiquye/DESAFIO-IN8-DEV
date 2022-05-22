@@ -1,7 +1,7 @@
 # 🍀 DESAFIO-IN8-DEV
 
 ### 📂 Sobre 
- Esse projeto é responsavel por cadastrar e lista os dados sobre os estagiários. Projeto simples, aonde o CLIENT se integra com o SERVER. 
+ Esse projeto é responsavel por cadastrar e lista os dados sobre os estagiários. Projeto simples, integrando o client com o server. 
  
 ### 🛠 Construido 
 - **Server**
