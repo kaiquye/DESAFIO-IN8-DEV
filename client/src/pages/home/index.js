@@ -6,14 +6,18 @@ function HomePage() {
 
     return (
         <section className={style.home} >
+          
             <main className={style.home_body} >
                 <div className={style.home_body_cadastro} >
                     <Cadastro />
                 </div>
                 <div className={style.home_body_lista} >
                     <Lista />
+
                 </div>
+
             </main>
+
         </section>
     )
 

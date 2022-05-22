@@ -1,0 +1,22 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    background-image: url('../../seeds/rodape-desktop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer_body{
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(212, 212, 212);
+    font-family: Helvetica;
+    font-size: 13px;
+}

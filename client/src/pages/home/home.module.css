@@ -6,8 +6,8 @@
   display: grid;
   grid-template-rows: 100vh 100vh;
 }
-.home_body_cadastro{
-    background-color: green;
+.home_body_cadastro {
+  background-color: green;
 }
-.home_body_lista{
+.home_body_lista {
 }

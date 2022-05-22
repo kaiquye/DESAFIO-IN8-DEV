@@ -5,5 +5,25 @@
 .App_body {
   display: grid;
   grid-template-columns: auto;
-  grid-auto-rows: 100vh 200vh 10vh;
+  grid-auto-rows: 100vh 200vh 30vh;
+}
+.home_voltar {
+  position: fixed;
+  width: 3px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.home_voltar button{
+  cursor: pointer;
+  margin-left: 50px;
+  margin-bottom: 40px;
+  background-color: rgba(240, 248, 255, 0);
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../src/components/header/icons/topo-pag.svg');
 }
