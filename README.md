@@ -19,9 +19,13 @@
   - YUP
   - REACT-HOOK-FORMS
 
-### 🎑 Clona o projeto
+### 🎑 Clonar o projeto
+
+Node.js LS
+React.Js LS
+
 ```bash 
-git clone : https://github.com/kaiquye/PROJETO-SEMINOVOS.git
+git clone : [https://github.com/kaiquye/PROJETO-SEMINOVOS.git](https://github.com/kaiquye/DESAFIO-IN8-DEV.git)
 npm install
 npm start
 ```
