@@ -7,14 +7,17 @@ function Header() {
     const menu_ref = useRef()
 
     function abriMenu() {
-
-
-
+        let condicaoMenu = menu_ref.current.style.display;
+        if (condicaoMenu == 'none') {
+            menu_ref.current.style.display = 'flex'
+        } else {
+            menu_ref.current.style.display = 'none'
+        }
     }
 
     return (
         <section className={style.header} >
-            <div ref={menu_ref} className={style.body_header_nav_list_mobile}  >
+            <div ref={menu_ref} style={{ display: 'none' }} className={style.body_header_nav_list_mobile}  >
                 <ul>
                     <li> <a>Cadastro</a></li>
                     <li> <a>Lista</a>  </li>
@@ -24,7 +27,7 @@ function Header() {
             <main className={style.body_header} >
                 <div className={style.body_header_nav}  >
 
-                    <button className={style.body_header_button_mobile}  >EMNU</button>
+                    <button onClick={() => { abriMenu() }} className={style.body_header_button_mobile}  >EMNU</button>
 
                     <div className={style.body_header_nav_logo}  >
                         <img src={logo} style={{ width: '150px' }} />

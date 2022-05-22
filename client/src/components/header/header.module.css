@@ -75,7 +75,6 @@
   font-size: 30px;
 }
 
-
 .body_header_button_mobile {
   display: none;
 }
@@ -87,6 +86,7 @@
 }
 
 @media screen and (max-width: 450px) {
+  /* FALTA AJUSTAR O MENU MOBILE */
   .body_header_button_mobile {
     display: flex;
     margin-right: 200px;
@@ -96,9 +96,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     cursor: pointer;
-  }
-  .body_header_nav_list_mobile {
-    display: flex;
   }
   .body_header_nav_list {
     display: none;
