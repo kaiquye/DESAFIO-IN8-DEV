@@ -27,7 +27,7 @@ function Header() {
             <main className={style.body_header} >
                 <div className={style.body_header_nav}  >
 
-                    <button onClick={() => { abriMenu() }} className={style.body_header_button_mobile}  >EMNU</button>
+                    <button onClick={() => { abriMenu() }} className={style.body_header_button_mobile}  ></button>
 
                     <div className={style.body_header_nav_logo}  >
                         <img src={logo} style={{ width: '150px' }} />

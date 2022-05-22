@@ -1,0 +1,32 @@
+.NotFound {
+  width: 100%;
+  height: 100%;
+  background-color: #29abe2;
+     color: white;
+}
+.NotFound_body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.NotFound_body h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+}
+.NotFound_body a{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: green;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    border-radius: 30px;
+}

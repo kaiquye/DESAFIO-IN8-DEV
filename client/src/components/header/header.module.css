@@ -88,13 +88,13 @@
 @media screen and (max-width: 450px) {
   /* FALTA AJUSTAR O MENU MOBILE */
   .body_header_button_mobile {
+    width: 450px;
     display: flex;
     margin-right: 200px;
     background-color: rgba(240, 248, 255, 0);
     border: none;
     background-image: url("./icons/hamburguer.svg");
     background-repeat: no-repeat;
-    background-size: 100%;
     cursor: pointer;
   }
   .body_header_nav_list {

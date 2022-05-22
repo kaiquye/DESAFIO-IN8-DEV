@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ContextApiProvider from "../contextApi/contextApi";
 import HomePage from "../pages/home";
+import NotFound from "../pages/Not-Found";
 
 function RoutesApp() {
 
@@ -10,7 +11,7 @@ function RoutesApp() {
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="*" element={
-                        <h1>PAGINA NÂO ENCONTRADA</h1>
+                        <NotFound />
                     } />
                 </Routes>
             </ContextApiProvider>
