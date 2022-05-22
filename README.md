@@ -1,7 +1,7 @@
 # 🍀 DESAFIO-IN8-DEV
 
 - 📢 gif com qualidade baixa
-- ![GIF-DESAFIO](https://user-images.githubusercontent.com/69175890/169716338-a2f317a8-d054-4461-80a4-e5632811223a.gif)
+![GIF-DESAFIO](https://user-images.githubusercontent.com/69175890/169716338-a2f317a8-d054-4461-80a4-e5632811223a.gif)
 
 
 
