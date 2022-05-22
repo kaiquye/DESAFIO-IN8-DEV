@@ -25,7 +25,7 @@ Node.js LS
 React.Js LS
 
 ```bash 
-git clone : [https://github.com/kaiquye/PROJETO-SEMINOVOS.git](https://github.com/kaiquye/DESAFIO-IN8-DEV.git)
+git clone : https://github.com/kaiquye/DESAFIO-IN8-DEV.git
 npm install
 npm start
 ```
