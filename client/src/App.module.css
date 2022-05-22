@@ -27,3 +27,8 @@
   background-repeat: no-repeat;
   background-image: url('../src/components/header/icons/topo-pag.svg');
 }
+@media screen and (max-width: 750px) {
+  .App_body{
+    grid-auto-rows: 140vh 200vh 30vh;
+  }
+}

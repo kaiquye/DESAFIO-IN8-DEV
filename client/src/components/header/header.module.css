@@ -3,7 +3,7 @@
   height: 100%;
   background-image: url("../../seeds/index-image.jpg");
   background-position: center;
-  background-size: 110%;
+  background-size: 120%;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -49,15 +49,74 @@
 }
 
 .body_header_titulo p {
- font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 500;
   color: rgb(230, 230, 230);
   font-size: 105px;
 }
 
 .body_header_titulo label {
- font-family: 'Roboto Flex', sans-serif;
+  font-family: "Roboto Flex", sans-serif;
   font-weight: 100;
   color: rgb(230, 230, 230);
   font-size: 40px;
+}
+.body_header_nav_list_mobile {
+  display: none;
+  background-color: #29abe2;
+  color: white;
+  width: 45%;
+  height: 20%;
+  position: absolute;
+}
+.body_header_nav_list_mobile ul {
+  list-style: none;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 30px;
+}
+
+
+.body_header_button_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .body_header_button_mobile {
+    display: flex;
+    margin-right: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    background-image: url("./icons/hamburguer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+  }
+  .body_header_nav_list_mobile {
+    display: flex;
+  }
+  .body_header_nav_list {
+    display: none;
+  }
+  .header {
+    background-image: url("../../seeds/index-image-mobile.jpg");
+    background-size: 100%;
+    background-position: center;
+  }
+  .body_header {
+    margin-top: 10px;
+  }
+  .body_header_titulo p {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 100px;
+  }
+  .body_header_titulo label {
+    text-align: center;
+  }
 }

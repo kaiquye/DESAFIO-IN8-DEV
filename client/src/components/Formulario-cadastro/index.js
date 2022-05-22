@@ -37,28 +37,28 @@ function NovoEstagiario() {
                             Nome
                         </label>
                         <input {...register("nome")} name='nome' type='text' />
-                        <p>{errors.nome?.message}</p>
+                        <p style={{ color: 'red' }}  >{errors.nome?.message}</p>
                     </div>
                     <div className={style.cadastro_body_form_input}  >
                         <label>
                             E-mail
                         </label>
                         <input {...register("email")} name='email' type='text' />
-                        <p>{errors.email?.message}</p>
+                        <p style={{ color: 'red' }} >{errors.email?.message}</p>
                     </div>
                     <div className={style.cadastro_body_form_input}  >
                         <label>
                             Nascimento
                         </label>
                         <input {...register("nascimento")} name='nascimento' type='text' />
-                        <p>{errors.nascimento?.message}</p>
+                        <p style={{ color: 'red' }}  >{errors.nascimento?.message}</p>
                     </div>
                     <div className={style.cadastro_body_form_input}  >
                         <label>
                             Telefone
                         </label>
                         <input {...register("telefone")} name='telefone' type='text' />
-                        <p>{errors.telefone?.message}</p>
+                        <p style={{ color: 'red' }}  >{errors.telefone?.message}</p>
                     </div>
                     <div className={style.cadastro_body_form_btn} >
                         <button className={style.cadastro_body_form_button}>CADASTRAR</button>
