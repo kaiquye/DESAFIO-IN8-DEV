@@ -35,4 +35,7 @@ npm install
 npm start
 ```
 
+### ➡ linkedin
+https://www.linkedin.com/in/kaique-mendes-9b61381a5/
+
 
