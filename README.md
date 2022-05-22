@@ -20,10 +20,10 @@
   - REACT-HOOK-FORMS
 
 ### 🎑 Clona o projeto
- hash--
- asdasd
- ---
- 
- 
+```bash 
+git clone : https://github.com/kaiquye/PROJETO-SEMINOVOS.git
+npm install
+npm start
+```
 
 
